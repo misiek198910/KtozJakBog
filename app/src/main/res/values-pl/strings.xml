@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Któż jak Bóg</string>
+    <string name="next">Następny</string>
+    <string name="back">Poprzedni</string>
+    <string name="novenna">Nowenna</string>
+    <string name="settings">Ustawienia</string>
+    <string name="info">Informacje</string>
+    <string name="app">Inne aplikacje</string>
+    <string name="rate">Oceń aplikacje</string>
+    <string name="donate">Postaw kawę</string>
+    <string name="omowienie">Omówienie</string>
+    <string name="info2">Wielkie zawierzenie Św. Michałowi Archaniołowi</string>
+    <string name="donate2">Wspomóż projekt ↗</string>
+
+    <string name="kofi_text1">Jeśli podoba Ci się moja aplikacja na Androida i chcesz okazać wsparcie, możesz postawić mi wirtualną kawę przez Ko-fi. Każda kawa to dla mnie ogromna motywacja do dalszego rozwoju, poprawek i dodawania nowych funkcji. Dziękuję za Twoje wsparcie – nawet najmniejszy gest robi różnicę! </string>
+    <string name="kofi_text2">Kliknij aby przejść do witryny</string>
+    <string name="kofi_text3">Postaw kawę</string>
+
+    <string name="app_objawienia">Objawienia</string>
+    <string name="app_rachunek_sumienia">Rachunek Sumienia</string>
+    <string name="app_rachunek_sumienia_plus">Rachunek Sumienia Plus</string>
+    <string name="app_niewolnik_maryi">Niewolnik Maryi</string>
+    <string name="app_niewolnik_maryi_plus">Niewolnik Maryi Plus</string>
+    <string name="app_kalkulator_cnc">Kalkulator CNC</string>
+    <string name="app_kalkulator_cnc_plus">Kalkulator CNC Plus</string>
+    <string name="app_moj_rozaniec">Mój Różaniec</string>
+    <string name="app_moj_rozaniec_plus">Mój Różaniec Plus</string>
+    <string name="app_kalendarz_liturgiczny">Kalendarz Liturgiczny</string>
+    <string name="app_kalendarz_liturgiczny_plus">Kalendarz Liturgiczny Plus</string>
+    <string name="app_droga_krzyzowa">Droga Krzyżowa</string>
+    <string name="app_droga_krzyzowa_plus">Droga Krzyżowa Plus</string>
+    <string name="error">Nie można odnaleść aplikacji Sklep Google Play</string>
+    <string name="loading">Wczytywanie…</string>
+
+    <string name="information_tekst1">Bądź na bieżąco! Przejdź na bloga, aby zobaczyć najnowsze newsy o moich aplikacjach.</string>
+    <string name="information_tekst2">Przejdż do bloga</string>
+    <string name="information_tekst0">Materiał pochodzi z oficjalnej strony internetowej Parafii Trójcy Przenajświętszej w Stalowej Woli (http://webmail.stalowawola-michalici.pl). Teksty modlitw zostały zaczerpnięte z książki pt. *Wielkość Świętego Michała Archanioła. Miesięczne nabożeństwo w intencjach trudnych*.</string>
+
+</resources>

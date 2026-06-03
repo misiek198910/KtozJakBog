@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Activity_Settings">
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_toolbar_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ad_view_container">
+
+        <LinearLayout
+            android:onClick="panel1_Clicked"
+            android:id="@+id/layout1_settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:onClick="panel1_Clicked"
+                android:id="@+id/imageButton1_settings"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/baseline_info_24"
+                android:backgroundTint="@color/white"
+                tools:ignore="contentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView1_settings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:text="@string/info"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:onClick="panel2_Clicked"
+            android:id="@+id/layout2_settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:onClick="panel2_Clicked"
+                android:id="@+id/imageButton2_settings"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/baseline_info_24"
+                android:backgroundTint="@color/white"
+                tools:ignore="contentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView2_settings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:text="@string/app"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:onClick="panel3_Clicked"
+            android:id="@+id/layout3_settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:onClick="panel3_Clicked"
+                android:id="@+id/imageButton3_settings"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/baseline_star_rate_24"
+                android:backgroundTint="@color/white"
+                tools:ignore="contentDescription,SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView3_settings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:text="@string/rate"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:onClick="panel4_Clicked"
+            android:id="@+id/layout4_settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:onClick="panel4_Clicked"
+                android:id="@+id/imageButton4_settings"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/blue"
+                app:srcCompat="@drawable/kofi"
+                tools:ignore="contentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView4_settings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:text="@string/donate"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottom_toolbar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:onClick="button_back_Clicked"
+            android:id="@+id/button_back_settings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/buttons"
+            tools:ignore="contentDescription,SpeakableTextPresentCheck"
+            android:src="@drawable/arrow_back_white_24" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

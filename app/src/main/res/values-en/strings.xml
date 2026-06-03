@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Who is like God</string>
+    <string name="next">Next</string>
+    <string name="back">Previous</string>
+    <string name="novenna">Novena</string>
+    <string name="settings">Settings</string>
+    <string name="info">Information</string>
+    <string name="app">Other Apps</string>
+    <string name="rate">Rate the App</string>
+    <string name="donate">Buy Me a Coffee</string>
+    <string name="omowienie">Discussing</string>
+    <string name="info2">The Great Consecration to St. Michael the Archangel</string>
+    <string name="donate2">Support the project ↗</string>
+
+    <string name="kofi_text1">If you like my Android app and would like to show your support, you can buy me a virtual coffee through Ko-fi. Every coffee is a huge motivation for me to continue development, fixes, and adding new features. Thank you for your support – even the smallest gesture makes a difference!</string>
+    <string name="kofi_text2">Click to visit the website</string>
+    <string name="kofi_text3">Buy Me a Coffee</string>
+
+    <string name="app_objawienia">Apparitions</string>
+    <string name="app_rachunek_sumienia">Examination of Conscience</string>
+    <string name="app_rachunek_sumienia_plus">Examination of Conscience Plus</string>
+    <string name="app_niewolnik_maryi">Slave of Mary</string>
+    <string name="app_niewolnik_maryi_plus">Slave of Mary Plus</string>
+    <string name="app_kalkulator_cnc">CNC Calculator</string>
+    <string name="app_kalkulator_cnc_plus">CNC Calculator Plus</string>
+    <string name="app_moj_rozaniec">My Rosary</string>
+    <string name="app_moj_rozaniec_plus">My Rosary Plus</string>
+    <string name="app_kalendarz_liturgiczny">Liturgical Calendar</string>
+    <string name="app_kalendarz_liturgiczny_plus">Liturgical Calendar Plus</string>
+    <string name="app_droga_krzyzowa">Stations of the Cross</string>
+    <string name="app_droga_krzyzowa_plus">Stations of the Cross Plus</string>
+    <string name="error">Unable to find Google Play Store app</string>
+    <string name="loading">Loading…</string>
+
+    <string name="information_tekst1">Stay up to date! Visit the blog to see the latest news about my apps.</string>
+    <string name="information_tekst2">Go to blog</string>
+    <string name="information_tekst0">The material has been sourced from the official website of the Parish of the Most Holy Trinity in Stalowa Wola (http://webmail.stalowawola-michalici.pl). The prayer texts are excerpted from the book entitled *The Greatness of Saint Michael the Archangel: A Monthly Devotion for Difficult Intentions*.</string>
+
+</resources>
