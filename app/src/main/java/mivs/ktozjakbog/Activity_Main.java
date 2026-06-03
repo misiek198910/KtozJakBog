@@ -27,7 +27,6 @@ import com.google.android.ump.UserMessagingPlatform;
 
 import java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;
-import mivs.ktozjakbog.BuildConfig;
 
 public class Activity_Main extends AppCompatActivity {
     Button btn0, btn1, btn2, btn3;
@@ -35,6 +34,7 @@ public class Activity_Main extends AppCompatActivity {
     private AdView adView;
     private final AtomicBoolean isMobileAdsInitializeCalled = new AtomicBoolean(false);
     ConsentInformation consentInformation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +50,7 @@ public class Activity_Main extends AppCompatActivity {
 
         adContainerView = findViewById(R.id.ad_view_container);
         loadAdaptiveBanner();
+
 
         btn0 = findViewById(R.id.button0_main);
         btn1 = findViewById(R.id.button1_main);

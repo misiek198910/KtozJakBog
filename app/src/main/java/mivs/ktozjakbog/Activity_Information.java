@@ -3,7 +3,10 @@ package mivs.ktozjakbog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.View;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
@@ -14,6 +17,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
@@ -21,7 +25,8 @@ public class Activity_Information extends AppCompatActivity {
 
     LinearLayout bottom_toolbar;
     ImageButton button_back;
-    public AdView mAdView;
+    private FrameLayout adContainerView;
+    private AdView adView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,11 +39,10 @@ public class Activity_Information extends AppCompatActivity {
             return insets;
         });
 
-        MobileAds.initialize(this);
+        MobileAds.initialize(this, initializationStatus -> {});
 
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+        adContainerView = findViewById(R.id.ad_view_container);
+        loadAdaptiveBanner();
 
         button_back = findViewById(R.id.button_back);
         bottom_toolbar = findViewById(R.id.bottom_toolbar);
@@ -50,5 +54,58 @@ public class Activity_Information extends AppCompatActivity {
 
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
         startActivity(browserIntent);
+    }
+
+    private void loadAdaptiveBanner() {
+        adView = new AdView(this);
+        adView.setAdUnitId(BuildConfig.AD_BANNER_ID);
+
+        adContainerView.removeAllViews();
+        adContainerView.addView(adView);
+
+        AdSize adSize = getAdSize();
+        adView.setAdSize(adSize);
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+    }
+
+    private AdSize getAdSize() {
+        // Pobranie parametrów wyświetlacza w celu określenia szerokości okna reklamy
+        Display display = getWindowManager().getDefaultDisplay();
+        DisplayMetrics outMetrics = new DisplayMetrics();
+        display.getMetrics(outMetrics);
+
+        float widthPixels = outMetrics.widthPixels;
+        float density = outMetrics.density;
+
+        int adWidth = (int) (widthPixels / density);
+
+        // Zwrócenie zoptymalizowanego, adaptacyjnego rozmiaru bannera
+        return AdSize.getCurrentOrientationAnchoredAdaptiveBannerAdSize(this, adWidth);
+    }
+
+    @Override
+    protected void onPause() {
+        if (adView != null) {
+            adView.pause();
+        }
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (adView != null) {
+            adView.resume();
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (adView != null) {
+            adView.destroy();
+        }
+        super.onDestroy();
     }
 }
