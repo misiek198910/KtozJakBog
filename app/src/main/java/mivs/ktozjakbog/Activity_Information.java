@@ -1,11 +1,8 @@
 package mivs.ktozjakbog;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.Display;
-import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
@@ -47,13 +44,6 @@ public class Activity_Information extends AppCompatActivity {
         button_back = findViewById(R.id.button_back);
         bottom_toolbar = findViewById(R.id.bottom_toolbar);
         button_back.setOnClickListener( v -> finish());
-    }
-
-    public void button_blog_Clicked(View view) {
-        String link = "https://ubzj0c.webwave.dev/blog";
-
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
-        startActivity(browserIntent);
     }
 
     private void loadAdaptiveBanner() {

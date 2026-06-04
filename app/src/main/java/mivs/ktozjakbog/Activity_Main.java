@@ -29,7 +29,7 @@ import java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class Activity_Main extends AppCompatActivity {
-    Button btn0, btn1, btn2, btn3;
+    Button btn0, btn1, btn2;
     private FrameLayout adContainerView;
     private AdView adView;
     private final AtomicBoolean isMobileAdsInitializeCalled = new AtomicBoolean(false);
@@ -55,7 +55,6 @@ public class Activity_Main extends AppCompatActivity {
         btn0 = findViewById(R.id.button0_main);
         btn1 = findViewById(R.id.button1_main);
         btn2 = findViewById(R.id.button2_main);
-        btn3 = findViewById(R.id.button3_main);
 
         btn0.setOnClickListener(v -> {
             Intent myIntent = new Intent(Activity_Main.this, Activity_Omowienie.class);
@@ -70,11 +69,6 @@ public class Activity_Main extends AppCompatActivity {
         btn2.setOnClickListener(v -> {
             Intent myIntent = new Intent(Activity_Main.this, Activity_Settings.class);
             Activity_Main.this.startActivity(myIntent);
-        });
-
-        btn3.setOnClickListener(v -> {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://buycoffee.to/mivs/MojaParafia"));
-            startActivity(browserIntent);
         });
 
         Locale current = getResources().getConfiguration().getLocales().get(0);

@@ -69,15 +69,6 @@
             android:backgroundTint="@color/buttons"
             android:text="@string/settings" />
 
-        <Button
-            android:id="@+id/button3_main"
-            style="@style/button_style"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/buttons"
-            android:textColor="@color/yellow"
-            android:text="@string/donate2" />
-
     </LinearLayout>
 
     <FrameLayout
