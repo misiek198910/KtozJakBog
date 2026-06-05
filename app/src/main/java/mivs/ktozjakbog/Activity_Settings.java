@@ -69,8 +69,9 @@ public class Activity_Settings extends AppCompatActivity {
     }
 
     public void panel4_Clicked(View view) {
-        Intent myIntent = new Intent(this, Activity_kofi.class);
-        this.startActivity(myIntent);
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("https://ko-fi.com/michals"));
+        view.getContext().startActivity(intent);
     }
 
 

@@ -28,9 +28,6 @@
             android:name=".Activity_Apps"
             android:exported="false" />
         <activity
-            android:name=".Activity_kofi"
-            android:exported="false" />
-        <activity
             android:name=".Activity_Main"
             android:exported="false" />
         <activity
