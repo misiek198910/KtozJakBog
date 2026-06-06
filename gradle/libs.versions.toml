@@ -10,8 +10,12 @@ constraintlayout = "2.1.4"
 playServicesAds = "23.6.0"
 userMessagingPlatform = "3.1.0"
 firebaseBom = "33.1.0"
+playAppUpdate = "2.1.0"
 
 [libraries]
+play-app-update = { group = "com.google.android.play", name = "app-update", version.ref = "playAppUpdate" }
+play-app-update-ktx = { group = "com.google.android.play", name = "app-update-ktx", version.ref = "playAppUpdate" }
+
 firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }

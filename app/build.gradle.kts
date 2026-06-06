@@ -78,6 +78,9 @@ android {
 }
 
 dependencies {
+    implementation(libs.play.app.update)
+    implementation(libs.play.app.update.ktx)
+
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.crashlytics)
