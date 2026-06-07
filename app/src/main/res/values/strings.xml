@@ -10,11 +10,6 @@
     <string name="donate">Buy Me a Coffee</string>
     <string name="omowienie">Discussing</string>
     <string name="info2">The Great Consecration to St. Michael the Archangel</string>
-    <string name="donate2">Support the project ↗</string>
-
-    <string name="kofi_text1">If you like my Android app and would like to show your support, you can buy me a virtual coffee through Ko-fi. Every coffee is a huge motivation for me to continue development, fixes, and adding new features. Thank you for your support – even the smallest gesture makes a difference!</string>
-    <string name="kofi_text2">Click to visit the website</string>
-    <string name="kofi_text3">Buy Me a Coffee</string>
 
     <string name="app_objawienia">Apparitions</string>
     <string name="app_rachunek_sumienia">Examination of Conscience</string>
@@ -32,8 +27,6 @@
     <string name="error">Unable to find Google Play Store app</string>
     <string name="loading">Loading…</string>
 
-    <string name="information_tekst1">Stay up to date! Visit the blog to see the latest news about my apps.</string>
-    <string name="information_tekst2">Go to blog</string>
     <string name="information_tekst0">The material has been sourced from the official website of the Parish of the Most Holy Trinity in Stalowa Wola (http://webmail.stalowawola-michalici.pl). The prayer texts are excerpted from the book entitled *The Greatness of Saint Michael the Archangel: A Monthly Devotion for Difficult Intentions*.</string>
 
 </resources>
