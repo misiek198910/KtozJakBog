@@ -15,7 +15,7 @@ if (localPropertiesFile.exists()) {
 
 android {
     namespace = "mivs.ktozjakbog"
-    compileSdk = 35
+    compileSdk = 36
 
     signingConfigs {
         create("release") {
@@ -33,9 +33,9 @@ android {
     defaultConfig {
         applicationId = "mivs.ktozjakbog"
         minSdk = 27
-        targetSdk = 35
-        versionCode = 7
-        versionName = "1.7"
+        targetSdk = 36
+        versionCode = 8
+        versionName = "1.8"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 

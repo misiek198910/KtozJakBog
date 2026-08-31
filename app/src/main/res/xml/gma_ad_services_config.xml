@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Ad Services (Privacy Sandbox) configuration for the Google Mobile Ads SDK.
+  The SDK stopped bundling a default copy of this file and the matching
+  <property android:name="android.adservices.AD_SERVICES_CONFIG"> manifest tag
+  in version 24.0.0, so the app now has to provide both itself.
+  This mirrors the previous SDK default.
+-->
+<ad-services-config>
+  <!-- Attribution API -->
+  <attribution allowAllToAccess="true" />
+
+  <!-- Topics API -->
+  <topics allowAllToAccess="true" />
+</ad-services-config>
