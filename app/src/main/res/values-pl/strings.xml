@@ -12,17 +12,11 @@
 
     <string name="app_objawienia">Objawienia</string>
     <string name="app_rachunek_sumienia">Rachunek Sumienia</string>
-    <string name="app_rachunek_sumienia_plus">Rachunek Sumienia Plus</string>
     <string name="app_niewolnik_maryi">Niewolnik Maryi</string>
-    <string name="app_niewolnik_maryi_plus">Niewolnik Maryi Plus</string>
     <string name="app_kalkulator_cnc">Kalkulator CNC</string>
-    <string name="app_kalkulator_cnc_plus">Kalkulator CNC Plus</string>
     <string name="app_moj_rozaniec">Mój Różaniec</string>
-    <string name="app_moj_rozaniec_plus">Mój Różaniec Plus</string>
     <string name="app_kalendarz_liturgiczny">Kalendarz Liturgiczny</string>
-    <string name="app_kalendarz_liturgiczny_plus">Kalendarz Liturgiczny Plus</string>
     <string name="app_droga_krzyzowa">Droga Krzyżowa</string>
-    <string name="app_droga_krzyzowa_plus">Droga Krzyżowa Plus</string>
     <string name="error">Nie można odnaleść aplikacji Sklep Google Play</string>
     <string name="loading">Wczytywanie…</string>
 

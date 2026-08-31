@@ -12,17 +12,11 @@
 
     <string name="app_objawienia">Apparitions</string>
     <string name="app_rachunek_sumienia">Examination of Conscience</string>
-    <string name="app_rachunek_sumienia_plus">Examination of Conscience Plus</string>
     <string name="app_niewolnik_maryi">Slave of Mary</string>
-    <string name="app_niewolnik_maryi_plus">Slave of Mary Plus</string>
     <string name="app_kalkulator_cnc">CNC Calculator</string>
-    <string name="app_kalkulator_cnc_plus">CNC Calculator Plus</string>
     <string name="app_moj_rozaniec">My Rosary</string>
-    <string name="app_moj_rozaniec_plus">My Rosary Plus</string>
     <string name="app_kalendarz_liturgiczny">Liturgical Calendar</string>
-    <string name="app_kalendarz_liturgiczny_plus">Liturgical Calendar Plus</string>
     <string name="app_droga_krzyzowa">Stations of the Cross</string>
-    <string name="app_droga_krzyzowa_plus">Stations of the Cross Plus</string>
     <string name="error">Unable to find Google Play Store app</string>
     <string name="loading">Loading…</string>
 

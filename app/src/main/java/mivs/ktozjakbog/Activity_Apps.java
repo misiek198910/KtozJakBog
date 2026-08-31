@@ -27,8 +27,7 @@ public class Activity_Apps extends AppCompatActivity {
     private FrameLayout adContainerView;
     private AdView adView;
     ConstraintLayout main;
-    LinearLayout panel1, panel2, panel3, panel4, panel5, panel6, panel7, panel8, panel9,
-    panel10, panel11, panel12, panel13;
+    LinearLayout panel1, panel2, panel3, panel4, panel5, panel6, panel7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,12 +52,6 @@ public class Activity_Apps extends AppCompatActivity {
         panel5 = findViewById(R.id.panel5);
         panel6 = findViewById(R.id.panel6);
         panel7 = findViewById(R.id.panel7);
-        panel8 = findViewById(R.id.panel8);
-        panel9 = findViewById(R.id.panel9);
-        panel10 = findViewById(R.id.panel10);
-        panel11 = findViewById(R.id.panel11);
-        panel12 = findViewById(R.id.panel12);
-        panel13 = findViewById(R.id.panel13);
 
         button_back = findViewById(R.id.button_back);
         button_back.setOnClickListener( v -> finish());
@@ -68,27 +61,15 @@ public class Activity_Apps extends AppCompatActivity {
         panel2.setOnClickListener(v ->
                 OpenStore("pakiet.rachuneksumienia"));
         panel3.setOnClickListener(v ->
-                OpenStore("pakiet.rachuneksumienia_plus"));
-        panel4.setOnClickListener(v ->
                 OpenStore("mivs.niewolnik_maryi"));
-        panel5.setOnClickListener(v ->
-                OpenStore("mivs.niewolnik_maryi_plus"));
-        panel6.setOnClickListener(v ->
+        panel4.setOnClickListener(v ->
                 OpenStore("kalkulator.cnc"));
-        panel7.setOnClickListener(v ->
-                OpenStore("kalkulator.cnc.plus"));
-        panel8.setOnClickListener(v ->
+        panel5.setOnClickListener(v ->
                 OpenStore("mivs.m_j_r_aniec"));
-        panel9.setOnClickListener(v ->
-                OpenStore("mivs.m_j_r_aniec_plus"));
-        panel10.setOnClickListener(v ->
+        panel6.setOnClickListener(v ->
                 OpenStore("mivs.kalendarz_liturgiczny"));
-        panel11.setOnClickListener(v ->
-                OpenStore("mivs.kalendarz_liturgiczny_plus"));
-        panel12.setOnClickListener(v ->
+        panel7.setOnClickListener(v ->
                 OpenStore("droga_krzyzowa.droga_krzyzowa"));
-        panel13.setOnClickListener(v ->
-                OpenStore("droga_krzyzowa.droga_krzyzowa_plus"));
     }
     public void OpenStore(String packageName)
     {
