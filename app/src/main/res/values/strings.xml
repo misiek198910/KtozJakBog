@@ -4,7 +4,6 @@
     <string name="back">Previous</string>
     <string name="novenna">Novena</string>
     <string name="settings">Settings</string>
-    <string name="info">Information</string>
     <string name="app">Other Apps</string>
     <string name="rate">Rate the App</string>
     <string name="donate">Buy Me a Coffee</string>
@@ -26,7 +25,5 @@
     <string name="app_droga_krzyzowa_plus">Stations of the Cross Plus</string>
     <string name="error">Unable to find Google Play Store app</string>
     <string name="loading">Loading…</string>
-
-    <string name="information_tekst0">The material has been sourced from the official website of the Parish of the Most Holy Trinity in Stalowa Wola (http://webmail.stalowawola-michalici.pl). The prayer texts are excerpted from the book entitled *The Greatness of Saint Michael the Archangel: A Monthly Devotion for Difficult Intentions*.</string>
 
 </resources>

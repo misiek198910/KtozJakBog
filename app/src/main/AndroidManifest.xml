@@ -22,9 +22,6 @@
             android:name=".Activity_Nowenna"
             android:exported="false" />
         <activity
-            android:name=".Activity_Information"
-            android:exported="false" />
-        <activity
             android:name=".Activity_Apps"
             android:exported="false" />
         <activity

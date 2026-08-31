@@ -8,7 +8,6 @@ import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -24,7 +23,6 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
 public class Activity_Settings extends AppCompatActivity {
-    ImageButton img1;
     private AdView adView;
     private FrameLayout adContainerView;
 
@@ -43,13 +41,6 @@ public class Activity_Settings extends AppCompatActivity {
 
         adContainerView = findViewById(R.id.ad_view_container);
         loadAdaptiveBanner();
-
-        img1 = findViewById(R.id.imageButton1_settings);
-
-    }
-    public void panel1_Clicked(View view) {
-        Intent myIntent = new Intent(this, Activity_Information.class);
-        this.startActivity(myIntent);
     }
 
     public void panel2_Clicked(View view) {

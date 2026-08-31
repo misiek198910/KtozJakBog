@@ -4,7 +4,6 @@
     <string name="back">Poprzedni</string>
     <string name="novenna">Nowenna</string>
     <string name="settings">Ustawienia</string>
-    <string name="info">Informacje</string>
     <string name="app">Inne aplikacje</string>
     <string name="rate">Oceń aplikacje</string>
     <string name="donate">Postaw kawę</string>
@@ -26,7 +25,5 @@
     <string name="app_droga_krzyzowa_plus">Droga Krzyżowa Plus</string>
     <string name="error">Nie można odnaleść aplikacji Sklep Google Play</string>
     <string name="loading">Wczytywanie…</string>
-
-    <string name="information_tekst0">Materiał pochodzi z oficjalnej strony internetowej Parafii Trójcy Przenajświętszej w Stalowej Woli (http://webmail.stalowawola-michalici.pl). Teksty modlitw zostały zaczerpnięte z książki pt. *Wielkość Świętego Michała Archanioła. Miesięczne nabożeństwo w intencjach trudnych*.</string>
 
 </resources>
